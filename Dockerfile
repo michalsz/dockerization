@@ -34,7 +34,7 @@ WORKDIR /app
 # RUN cp /build/main .
 # RUN cp -R /build/templates .
 
-FROM ubuntu:latest
+FROM ubuntu:groovy-20210325
 
 RUN apt-get update
 RUN apt-get upgrade libbinutils libcurl4 -y
